@@ -20,23 +20,48 @@
 
 .row {
     display: flex;
-    padding-top: 5%;
-    padding-bottom: 5%;
+
+    vertical-align: middle;
+    border-radius: 25px;
 }
 
 .column {
     flex: 50%;
     font-family: 'Ubuntu', sans-serif;
+    align-items: center;
+    padding: 5px;
+    
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
 }
 
 #blockImage {
     background-color: #081624;
-    border-radius: 25px;
     padding: 5px;
+    width: fit-content;
+    align-items: center;
 }
 
 #blockText {
     background-color: #081624;
-    border-radius: 25px;
     padding: 5px;
+    height: max-content;
+}
+
+
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #093768;
+    color: rgba(255, 255, 255, 0.467);
+    text-align: center;
+  }
+
+.unformatted_links {
+    text-decoration: none;
+    color: white;
 }
