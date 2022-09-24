@@ -1,8 +1,42 @@
 #title {
     background-color: #031d38;
-    width: 80%;
+    width: fit-content;
+    padding-left: 5%;
+    padding-right: 5%;
     height: fit-content;
     font-family: 'Nabla', cursive;
     font-size: 200%;
     border-radius: 25px;
+}
+
+.contentBlock {
+    color: white;
+    background-color: #031d38;
+    width: 65%;
+    border-radius: 25px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.row {
+    display: flex;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.column {
+    flex: 50%;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#blockImage {
+    background-color: #081624;
+    border-radius: 25px;
+    padding: 5px;
+}
+
+#blockText {
+    background-color: #081624;
+    border-radius: 25px;
+    padding: 5px;
 }
